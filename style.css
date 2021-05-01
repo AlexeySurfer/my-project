@@ -1,7 +1,8 @@
-@font-face {
-  font-family: Helvetica Neue Cyr;
-  src: url(./assets/fonts/helveticaneuecyr-light.ttf);
+@font-face{
+    font-family:"Helvetica Neue Cyr" ;
+    src:url(../assets/fonts/helveticaneuecur-light.ttf)
 }
+
 body{
     background-color:white;
 }
@@ -28,89 +29,53 @@ body{
   display: flex;
 }
 .box-1{
-width: 360px;
+    width: 360px;
 height: 644px;
 border-radius: 4px;
 filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.07));
-background-color: #fcfcfc;
-margin-top: 88px;
-margin-left:194px;
-}
+background-color:#fcfcfc;
+margin-top: 84px;
+margin-left: 134px;
 
 
-small{
-  font-size: 14px;
-line-height: 38px;
-color: #999999;
-font-weight: 300;
-font-family: "Helvetica Neue Cyr";
-text-align: right;
-}
-
-.box-2{
-width: 750px;
-height: 644px;
-border-radius: 4px;
-filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.05));
-background-color: #fcfcfc;
-margin-top: 78px;
-margin-left: 32px;
-
-}
-.box-3{
-  font-size: 18px;
-line-height: 38px;
-color: #4d4d4d;
-font-weight: 300;
-font-family: "Helvetica Neue Cyr";
-height: 450px;
-width:300px ;
-margin-bottom: 70px;
-}
-{
-  font-size: 35px;
-  color: chartreuse;
-}
-a{
-  font-size: 18px;
-line-height: 38px;
-color: #4d4d4d;
-font-weight: 300;
-font-family: "Helvetica Neue Cyr";
-
-
-}
-.box-4{
-  margin-left:90px;
-  height: 462px;
 }
 h1{
-  width: 360px;
-height: 82px;
+    width: 360px;
+height: 62px;
 border-radius: 4px;
 filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.07));
-background-color: #6d717d;
-font-size: 34px;
-line-height: 38px;
-color: #ffffff;
-font-weight: 43;
-font-family: "Helvetica Neue Cyr";
-
-h2{
-  width: 750px;
-height: 82px;
-border-radius: 4px;
-background-color: #15a4f4;
+background-color:#6d717d;
 font-size: 34px;
 line-height: 38px;
 color: #ffffff;
 font-weight: 500;
 font-family: "Helvetica Neue Cyr";
+padding-top:20px;
 text-align: center;
+margin-top:0px;
+
 }
-h3{
-  width: 360px;
-height: 50px;
+p{
+    font-size: 18px;
+line-height: 38px;
+color: #4d4d4d;
+font-weight: 300;
+font-family: "Helvetica Neue Cyr";
+text-align: center;
+
+}
+small{
+    font-size: 14px;
+line-height: 38px;
+color: #999999;
+font-weight: 300;
+font-family: "Helvetica Neue Cyr";
+padding-left: 80px;
+padding-bottom: 80px;
+}
+h2{
+    width: 360px;
+height: 40px;
 border-radius: 4px;
 filter: drop-shadow(0px 10px 12.5px rgba(32,205,33,0.05));
 background-color: #34749d;
@@ -120,34 +85,44 @@ color: #ffffff;
 font-weight: 500;
 font-family: "Helvetica Neue Cyr";
 text-align: center;
-margin-top: 240px;
+padding-top: 10px;
+margin-top: 197px;
 }
-h4{
-  width: 360px;
-height: 50px;
+.box-2{
+    width: 750px;
+height: 644px;
 border-radius: 4px;
-filter: drop-shadow(0px 10px 12.5px rgba(52,116,157,0.05));
-background-color: #20cd21;
-font-size: 16px;
-line-height: 29px;
-color: #ffffff;
-font-weight: 500;
-font-family: "Helvetica Neue Cyr";
-text-align: center;
-margin-bottom: 40px;
+filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.05));
+background-color: white;
+margin-top: 84px;
+margin-left:35px ;
 
 }
-h5{
-  width: 360px;
-height: 50px;
+h3{
+    width: 750px;
+height: 62px;
 border-radius: 4px;
-filter: drop-shadow(0px 10px 12.5px rgba(21,164,244,0.05));
-background-color: #34749d;
-font-size: 16px;
-line-height: 29px;
+background-color: #15a4f4;
+font-size: 34px;
+line-height: 38px;
 color: #ffffff;
 font-weight: 500;
 font-family: "Helvetica Neue Cyr";
 text-align: center;
-margin-top:350px;
+padding-top: 20px;
+margin-top: 0px;
 }
+i{
+font-size: 11px;
+color: #00c300;
+}
+
+
+
+
+
+
+
+
+
+
