@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Helvetica Neue Cyr;
+  src: url(./assets/fonts/helveticaneuecyr-light.ttf);
+}
 body{
     background-color:white;
 }
@@ -89,10 +93,9 @@ background-color: #6d717d;
 font-size: 34px;
 line-height: 38px;
 color: #ffffff;
-font-weight: 500;
+font-weight: 43;
 font-family: "Helvetica Neue Cyr";
-text-align:center;
-}
+
 h2{
   width: 750px;
 height: 82px;
