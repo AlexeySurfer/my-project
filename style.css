@@ -1,6 +1,6 @@
 @font-face{
     font-family:"Helvetica Neue Cyr" ;
-    src:url(../assets/fonts/helveticaneuecur-light.ttf)
+    src:url(project/assts/fonts.ttf)
 }
 
 body{
@@ -23,99 +23,118 @@ body{
   color:15a4f4;
 }
 .container-2{
-  display: flex;
+	 display: flex;
 }
-.container-3{
-  display: flex;
-}
-.box-1{
-    width: 360px;
+.box{ 
+width: 360px;
 height: 644px;
 border-radius: 4px;
 filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.07));
 background-color:#fcfcfc;
 margin-top: 84px;
 margin-left: 134px;
-
-
 }
-h1{
-    width: 360px;
+.box-header{
+	width: 360px;
 height: 62px;
 border-radius: 4px;
 filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.07));
-background-color:#6d717d;
-font-size: 34px;
-line-height: 38px;
-color: #ffffff;
-font-weight: 500;
-font-family: "Helvetica Neue Cyr";
+background-color: #6d717d;
+color: white;
+padding-top: 20px;
+text-align: center;
+text-transform: uppercase;
+}
+.container-3{
+	display: block;
+}
+i{
+color: #00c300;
+}
+hr{   
+    width: 290px;
+background-color: #dbdbdb;
+margin-left: 20px;
+}
+.card{
+	width: 750px;
+height: 644px;
+border-radius: 4px;
+filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.05));
+background-color: #fcfcfc;
+margin-top: 82px;
+margin-left: 36px;
+}
+.card-header {
+width: 750px;
+height: 62px;
+border-radius: 4px;
+background-color: #15a4f4;
+text-align: center;
 padding-top:20px;
-text-align: center;
-margin-top:0px;
+}
+.card-header span {
+text-transform: uppercase;
+font-size: 34px;
+color: #fff;
+}
+.card-content {
+display: flex;
+justify-content: space-around;
+
 
 }
-p{
-    font-size: 18px;
-line-height: 38px;
-color: #4d4d4d;
-font-weight: 300;
-font-family: "Helvetica Neue Cyr";
-text-align: center;
-
+.card-content--advantages ul li{
+	margin-top:2px;
+	padding:0 ;
 }
-small{
-    font-size: 14px;
-line-height: 38px;
-color: #999999;
-font-weight: 300;
-font-family: "Helvetica Neue Cyr";
-padding-left: 80px;
-padding-bottom: 80px;
-}
-h2{
-    width: 360px;
+.box-conrolls{
+	width: 360px;
 height: 40px;
 border-radius: 4px;
 filter: drop-shadow(0px 10px 12.5px rgba(32,205,33,0.05));
 background-color: #34749d;
-font-size: 16px;
-line-height: 29px;
-color: #ffffff;
-font-weight: 500;
-font-family: "Helvetica Neue Cyr";
+color: white;
 text-align: center;
+text-transform: uppercase;
 padding-top: 10px;
-margin-top: 197px;
+margin-top: 300px;
 }
-.box-2{
-    width: 750px;
-height: 644px;
-border-radius: 4px;
-filter: drop-shadow(0px 20px 20px rgba(0,0,0,0.05));
-background-color: white;
-margin-top: 84px;
-margin-left:35px ;
+.card-content--price{
+	font-size: 18px;
+line-height: 38px;
+color: #1a1a1a;
+font-weight: 500;
+}
+li{
+	list-style-type: none;
+	font-size: 18px;
+line-height: 38px;
+color: #4d4d4d;
+font-weight: 300;
+font-family: "Helvetica Neue Cyr";
 
 }
-h3{
-    width: 750px;
-height: 62px;
-border-radius: 4px;
-background-color: #15a4f4;
-font-size: 34px;
+small{
+	font-size: 14px;
 line-height: 38px;
-color: #ffffff;
-font-weight: 500;
-font-family: "Helvetica Neue Cyr";
-text-align: center;
-padding-top: 20px;
-margin-top: 0px;
+color: #999999;
+font-weight: 300;
+margin-left: 45px;
+line-height: 0.9em;
 }
-i{
-font-size: 11px;
-color: #00c300;
+p{
+	margin-left: 42px;
+	margin-top: 1px;
+    
+    padding:0;
 }
+
+
+
+
+    
+
 
 
 
