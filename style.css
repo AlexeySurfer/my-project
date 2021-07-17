@@ -1,8 +1,8 @@
-@font-face{
-    font-family:"Helvetica Neue Cyr" ;
-    src:url(project/assts/fonts.ttf)
-}
 
+@font-face {
+    font-family: "Helvetica Neue Cyr";
+    src:url(./assets/fonts/helveticaneuecyr-light.ttf);
+}
 body{
     background-color:white;
 }
